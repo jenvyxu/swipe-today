@@ -1,0 +1,1 @@
+<view class="container"><view class="card-wrapper"><view wx:for="{{a}}" wx:for-item="card" wx:key="c" class="{{card.b}}" bindtouchstart="{{card.d}}" style="{{card.e}}" bindtouchmove="{{card.f}}" bindtouchend="{{card.g}}">{{card.a}}</view></view><view class="footer"><view wx:for="{{b}}" wx:for-item="item" wx:key="b" class="btn" bindtap="{{item.c}}">{{item.a}}</view></view></view>
